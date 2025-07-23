@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Example</title>
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+  <body>
+    <div id="sidebar" class="sidebar">
+      <a href="#" class="close-btn" id="closeBtn">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div id="main">
+      <button id="openBtn" class="open-btn">☰</button>
+    </div>
+    <div class="container">
+      <h1>रिजल्ट चेक करें</h1>
+      <input type="text" id="rollNumber" placeholder="अपना रोल नंबर डालें" />
+      <button onclick="checkResult()">रिजल्ट देखें</button>
+
+      <div class="result" id="resultDisplay"></div>
+    </div>
+    <script src="sidebar.js"></script>
+  </body>
+</html>
